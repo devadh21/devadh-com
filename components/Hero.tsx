@@ -10,12 +10,12 @@ export default function Hero() {
         <Image
           src="/hero-image.png"
           alt="Hero Image"
-          width={1020}
-          height={400}
+          width={900}
+          height={100}
         />
       </div>
       <div className="text-center mt-8">
-        <Link href={"https://portfolio.devadh.com"} target="_blank"  className="bg-purple-900 text-white px-4 py-2 rounded x hover:bg-purple-700 transition-colors">
+        <Link href={"https://portfolio.devadh.com"} target="_blank"  className="bg-purple-900 text-white px-4 py-2 rounded  hover:bg-purple-700 transition-colors">
           My Portfolio
         </Link>
       </div>
