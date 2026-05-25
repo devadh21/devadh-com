@@ -6,22 +6,17 @@ export default function Hero() {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center">Welcome to Devadh.com</h1>
-      <div>
-        <Image
-          src="/hero-image.png"
-          alt="Hero Image"
-          width={900}
-          height={100}
-        />        
-      </div>
-         <div>
-        <Image
-          src="/logoo.png"
-          alt="Hero Image"
-          width={900}
-          height={100}
-        />        
-      </div>
+  <div className="relative w-full max-w-6xl mx-auto">
+  <Image
+    src="/hero-image.png"
+    alt="Hero Image"
+    width={1400}
+    height={800}
+    priority
+    className="w-full h-auto object-cover rounded-3xl"
+  />
+</div>
+       
       <div className="text-center mt-8">
         <Link
           href={"https://portfolio.devadh.com"}
