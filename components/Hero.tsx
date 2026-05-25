@@ -12,7 +12,15 @@ export default function Hero() {
           alt="Hero Image"
           width={900}
           height={100}
-        />
+        />        
+      </div>
+         <div>
+        <Image
+          src="/logoo.png"
+          alt="Hero Image"
+          width={900}
+          height={100}
+        />        
       </div>
       <div className="text-center mt-8">
         <Link
