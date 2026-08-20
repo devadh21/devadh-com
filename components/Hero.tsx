@@ -28,7 +28,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="flex items-center justify-center gap-4 pt-4">
             <Link
-              href="https://portfolio.devadh.com"
+              href="https://portfolio.devadh.site"
               target="_blank"
               className="bg-purple-600 hover:bg-purple-500 transition-all duration-300 px-6 py-3 rounded-xl font-medium shadow-lg shadow-purple-900/40"
             >
